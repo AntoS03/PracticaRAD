@@ -45,7 +45,7 @@ if st.button("🔍 Mostra dati"):
             # Immagine
             if image.get("photos"):
                 img_url = image["photos"][0]["src"]["landscape"]
-                st.image(img_url, caption=f"Immagine di {selected_city}", use_column_width=True)
+                st.image(img_url, caption=f"Immagine di {selected_city}", use_container_width=True)
 
             # Meteo attuale
             current = weather["current"]
