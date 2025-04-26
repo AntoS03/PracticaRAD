@@ -69,3 +69,5 @@ if st.button("🔍 Mostra dati"):
                     st.markdown(f"- [{article['title']}]({article['url']})")
             else:
                 st.warning("Nessuna notizia trovata per questa città.")
+
+                
